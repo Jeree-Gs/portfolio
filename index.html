@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jeremy Garabito | Portfolio</title>
+
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()"></a>
+    <img src="img/logo.png" alt="Logo">
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact1">Contact1</a>
+    <a href="#contact2">Contact2</a>
+  </div>
+
+<div class="container" onmousemove="expandirLados(event)" onmouseleave="centrarContenido()">
+  <div class="left" id="leftSide">
+    <!-- Contenido izquierdo -->
+    <p>¡Coloca el mouse aquí!</p>
+  </div>
+  <div class="right" id="rightSide">
+    <!-- Contenido derecho -->
+    <p>O aquí...</p>
+  </div>
+</div>
+
+<div style="padding: 16px">
+  <!-- Tu contenido aquí -->
+</div>
+
+
+<script src="functions.js"></script>
+
+</body>
+</html>
