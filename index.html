@@ -11,7 +11,9 @@
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Kdam+Thmor+Pro&family=Open+Sans&family=PT+Sans:wght@700&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Kdam+Thmor+Pro&family=Open+Sans&family=PT+Sans:wght@700&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Jeremy Garabito</title>
     <link rel="icon" href="/img/icon.JPG" type="image/x-icon">
@@ -20,7 +22,7 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo"><a href="#">Web Dev Creativo</a></div>
+            <div class="logo"><a href="#"><img src="/img/logo.png" alt=""></a></div>
             <ul class="links">
                 <li><a href="#">Sobre mí</a></li>
                 <li><a href="#">Tecnologías</a></li>
@@ -44,16 +46,27 @@
 
     <main>
         <div class="container">
-            <div class="hero">
-                
+            <div class="wrapper">
+                <h1 class="firstLetter">I' am  <span class="auto-type multiText"></span> </h1>
             </div>
             <div class="disc">
-                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.32/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/UyB7RtglWXhbHzxj/scene.splinecode"></spline-viewer>
+               <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.32/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/4T2REqtX5SHto07r/scene.splinecode"></spline-viewer>-->
             </div>
         </div>
     </main>
 
+  
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings : ["Programmer", "Freelancer", "Designer"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            startDelay : 1000,
+            backDelay : 1500
+        })
+    </script>
     <script src="script.js"></script>
 </body>
 
