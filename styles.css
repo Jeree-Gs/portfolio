@@ -18,7 +18,7 @@
 
 body {
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #FCFCF7;
     background-size: cover;
     background-position: center;
 }
@@ -187,7 +187,7 @@ span {
 .firstLetter {
     color: var(--fourthColor);
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     letter-spacing: 1px;
     font-family: var(--primaryFont);
 }
@@ -202,6 +202,6 @@ span {
 @media (max-width: 768px) {
     .firstLetter {
         font-weight: 600;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 }
