@@ -1,9 +1,9 @@
-// Carga
+// Loader
 window.addEventListener("load", function () {
     setTimeout(function () {
         document.querySelector('.loop').style.display = 'none';
         document.querySelector('.content').style.display = 'block';
-    }, 3000); // Ajusta el tiempo en milisegundos según sea necesario
+    }, 2000); // Ajusta el tiempo en milisegundos según sea necesario
 });
 
 // Toggle Navbar
