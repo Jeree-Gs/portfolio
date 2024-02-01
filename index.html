@@ -62,15 +62,12 @@
 
             <!--Typing Text-->
             <div>
-                <canvas id="canvas3d"></canvas>
-                    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
-                    <script type="importmap">
-                    {
-                        "imports": {
-                        "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@1.0.37/build/runtime.js"
-                        }
-                    }
-                    </script>
+                <div class="video-container" id="canvas3d">
+                    <video autoplay loop muted>
+                        <source src="img/cubes.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
 
                 <div class="container">
                     <div class="wrapper">
@@ -92,15 +89,54 @@
 
                 <div class="container-sobremi">
                     <div class="foto">
-                        <img src="/img/logo.png" alt="Mi Foto" class="imagen" width="30px" />
-                        <div class="nombre">Tu Nombre</div>
+                        <img src="/img/face.png" alt="Mi Foto" class="imagen" width="30px" />
+                        <div class="nombre">Técnico Superior en Informática</div>
                     </div>
                     <div class="descripcion">
-                        asfasfasdsad
+                        Soy un apasionado desarrollador frontend y diseñador UX/UI. Mi enfoque se centra en fusionar la estética visual con la funcionalidad, asegurando experiencias excepcionales. Comprometido en transformar ideas creativas en soluciones digitales impactantes.
                     </div>
                 </div>
             </div>
         </section>
+
+    
+
+        <section class="tecnologias">
+            <div class="contenedor-tecnologias">
+                <h2 class="titulo">Tecnologías</h2>
+        
+                <div class="container-tecnologias">
+                    <div class="tool-code">
+                        <h3>Código</h3>
+                        <div class="icon-container">
+                            <img class="icon" src="/img/tecnologias/html.png" alt="HTML5">
+                            <img class="icon" src="/img/tecnologias/css.png" alt="CSS3">
+                            <img class="icon" src="/img/tecnologias/sass.png" alt="SASS">
+                            <img class="icon" src="/img/tecnologias/gulp.png" alt="GULP">
+                            <img class="icon" src="/img/tecnologias/bootstrap.png" alt="BOOTSTRAP">
+                            <img class="icon" src="/img/tecnologias/JavaScript.png" alt="JavaScript">
+                            <img class="icon" src="/img/tecnologias/php.png" alt="PHP">
+                            <img class="icon" src="/img/tecnologias/csharp.png" alt="C#">
+                            <img class="icon" src="/img/tecnologias/mysql.png" alt="MySQL">
+                            <img class="icon" src="/img/tecnologias/git.png" alt="Git">
+                            <img class="icon" src="/img/tecnologias/github.png" alt="GitHub">
+                        </div>
+                    </div>
+                    
+                    <div class="tool-design">
+                        <h3>Diseño</h3>
+                        <div class="icon-container">
+                            <img class="icon" src="/img/tecnologias/figma.png" alt="Figma">
+                            <img class="icon" src="/img/tecnologias/ai.png" alt="Adobe Illustrator">
+                            <img class="icon" src="/img/tecnologias/ps.png" alt="Adobe Photoshop">
+                            <img class="icon" src="/img/tecnologias/lr.png" alt="Adobe Lightroom">
+                            <img class="icon" src="/img/tecnologias/xd.png" alt="Adobe XD">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
     </main>
 
