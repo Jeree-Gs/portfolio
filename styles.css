@@ -431,6 +431,7 @@ span {
 
 .sobremi {
   background-color: var(--secondColor);
+  padding-bottom: 40px;
 }
 
 .contenedor-sobremi {
@@ -542,15 +543,11 @@ span {
   margin: 0 auto;
 }
 
-.titulo {
+.titulo-tecnologias {
   text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
 }
-
-
-
-
-
-
 
 .container-tecnologias {
   display: flex;
@@ -562,9 +559,10 @@ span {
 .tool-design {
   flex: 1 1 calc(50% - 20px); /* Ancho máximo para ocupar la mitad */
   text-align: center;
-  padding: 20px;
+  padding: 70px;
+  padding-top: 30px;
   background-color: #ffffff;
-  margin: 10px;
+  margin: 50px;
   border-color: #333;
   border-width: 2px;
   border-radius: 10px;
@@ -587,4 +585,19 @@ span {
   max-width: 60px; /* Ajusta según tus necesidades */
   height: auto;
   object-fit: contain;
+}
+
+
+
+
+
+.proyectos {
+  background-color: #fff8d4;
+}
+
+.titulo-proyectos {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+  padding-top: 10px;
 }
